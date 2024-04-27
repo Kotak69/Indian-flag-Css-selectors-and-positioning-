@@ -1,0 +1,66 @@
+.flag{
+    position: absolute;
+    height: 600px;
+    width: 900px;
+    background-color: #FF671F;
+    text-align: center;
+    border: solid;
+    
+}
+body > div > p{
+    position: relative;
+    top: 50px;
+    margin: 0;
+    font-size: 5rem;
+    color: black;
+}
+.of{
+    position: absolute;
+    background-color: white;
+    height: 200px;
+    width: 900px;
+    top: 200px;
+}
+body > div> div p{
+    position: relative;
+    top: -40px;
+    font-size: 5rem;
+}
+.India{
+    position:relative;
+    background-color: green;
+    height: 201px;
+    top: -53px;
+}
+body > div > div > div > p{
+    position: relative;
+    font-size: 5rem;
+    text-align: center;
+    top: 35px;
+    color: black;
+}
+#wheel{
+    position: relative;
+    top: 230px;
+    left: 375px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid black;
+}
+#spoke{
+    position: relative;
+    border: solid brown;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    top: 70px;
+    left: 70px;
+    background-color: brown;
+}
+#stick{
+    position: absolute;
+    top: 10px;
+    height: 1500px;
+    border: solid;
+}
